@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+   <head>
+      <meta charset="UTF-8">
+      <title></title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div id="imageHaut">
+         <img src="image1.jpg" id="imageHaut-image">
+         <div id="imageHaut-texte">
+            <h1>Bienvenue sur le jeu de l'Othello...en mer !</h1>
+            <a href="#contenu" id="go">>---- Je veux apprendre ! ----<</a>
+
+            <p><a href="index.html"><button id="boutonHome">Entrez dans la bataille.</button> </a></p>
+        </div>
+      </div>
+
+      <div id="menu">
+      <ul>
+         <li><a href="#butDujeu">But du Jeu</a></li>
+         <li><a href="#posDepart">Position de Départ</a></li>
+         <li><a href="#pions">La Pose d'un Pion</a></li>
+         <li><a href="#fin">Fin de Partie</a></li>
+      </ul>
+    </div>
+    <div id="contenu">
+      <div id="butDujeu"> 
+
+         <h3>But du Jeu</h3>
+         Avoir plus de pions de sa couleur que l’adversaire à la fin de la partie. Celle-ci s’achève lorsque aucun des deux joueurs ne peut plus jouer de coup légal. Cela intervient généralement lorsque les 64 cases sont occupées.        
+      <hr>
+        </div>
+        <h3>Position de Départ</h3>
+        <div id="posDepart">
+            <div id="posDepartcontenu">
+                <img src="figure-1.jpg" id="image">
+                <div id="posDeparttexte">
+                    <p>Au début de la partie, deux pions noirs sont placés en e4 et d5 et deux pions blancs sont placés en d4 et e5 (voir figure 1).</p>
+                    <p>Noir commence toujours et les deux adversaires jouent ensuite à tour de rôle.</p>
+                </div>
+            </div>
+        </div>
+         
+        <hr>
+
+         <h3>La Pose d'un Pion</h3>
+         <div id="pions">
+            <div class="pionsContenu">
+         <p>A son tour de jeu, le joueur doit poser un pion de sa couleur sur une case vide de l’othellier, adjacente à un pion adverse. Il doit également, en posant son pion, encadrer un ou plusieurs pions adverses entre le pion qu’il pose et un pion à sa couleur, déjà placé sur l’othellier. Cette prise en sandwich peut se faire aussi bien horizontalement ou verticalement, qu’en diagnonale. Le joueur retourne le ou les pions qu’il vient d’encadrer, qui devient ainsi de sa couleur. Les pions ne sont ni retirés de l’othellier, ni déplacés d’une case à l’autre.
+         </p>
+         <p>
+            Le premier coup de Noir est, par exemple, en f5 (voir figure 2). En jouant f5, il encadre le pion blanc e5 entre le pion qu’il pose et un pion noir déjà présent (ici d5) ; il retourne alors ce pion (voir figure 3). Noir aurait aussi pu jouer en e6, c4 ou d3. Notons que ces quatre coups de Noir sont parfaitement symétriques ; Noir n’a donc pas à réfléchir pour choisir son premier coup.
+         </p>
+         <p>
+         C’est maintenant à Blanc de jouer. Il a trois coups possibles (voir figure 4). En effet, il est obligatoire de retourner au moins un pion adverse à chaque coup. Blanc peut donc jouer en f4, f6 ou en d6.        
+        </p>
+        <div id="pionImg1">
+            <img src="figure-2.jpg" id="image">
+            <img src="figure-3.jpg" id="image">
+            <img src="figure-4.jpg" id="image">
+            </div>
+            <p>
+            On peut encadrer des pions adverses dans les huit directions. Par ailleurs, dans chaque direction, plusieurs pions peuvent être encadrés (voir figures 6 et 7). On doit alors tous les retourner.
+         </p>
+         </p>
+         <div id="pionImg2">
+         <img src="figure-5.jpg" id="image">
+         <img src="figure-6.jpg" id="image">
+         <img src="figure-7.jpg" id="image">
+         </div>
+         <p>
+         Le joueur Noir a joué en c6. Il retourne alors les pions b6 (encadré grâce à a6), b5 (encadré grâce à a4), d7 (encadré grâce à e8), c5 et c4 (encadrés grâce à c3). Notons que ni d6, ni e6 ne sont retournés à cause de la case vide en f6. Il n’y a pas de réaction en chaîne : les pions retournés ne peuvent pas servir à en retourner d’autres lors du même tour de jeu.
+         </p>
+         <p>
+            Ainsi, sur la figure 8, Noir joue en a5 :
+         </p>
+         <div id="pionImg3">
+
+         <img src="figure-8.jpg" id="image">
+         <img src="figure-9.jpg" id="image">
+         </div>
+         <p>
+            Noir retourne b5 et c5 qui sont encadrés. Bien que c4 soit alors encadré, il n’est pas retourné (voir figure 9). En effet, il n’est pas encadré entre le pion que l’on vient de poser et un autre pion. Si, à votre tour de jeu, vous ne pouvez pas poser un pion en retournant un pion adverse suivant les règles, vous devez passer votre tour et c’est à votre adversaire de jouer. Mais si un retournement est possible, vous ne pouvez vous y soustraire.
+         </p>
+            </div>
+         </div>
+         <hr>
+         <h3>Fin de Partie</h3>
+         <p> La partie est terminée lorsque aucun des deux joueurs ne peut plus jouer. Cela arrive généralement lorsque les 64 cases sont occupées. Mais il se peut qu’il reste des cases vides où personne ne peut plus jouer : par exemple lorsque tous les pions deviennent d’une même couleur après un retournement. Ou bien comme sur cette position (voir figure 10).
+        </p>
+         <div id="fin">
+            <div id="fincontenu">
+         <img src="figure-10.jpg" id="image">        
+         <div id="fintexte">
+        <br>
+         <p>
+            Aucun des deux joueurs ne peut jouer en b1 puisque aucun retournement n’est possible. On compte les pions pour déterminer le score. Les cases vides sont données au vainqueur. Ici, Blanc a 29 pions, Noir 34 et il y a une case vide. Donc Noir gagne par 35 à 29.
+         </p>
+         <hr>
+        </div>
+    </div>
+    </div>
+    <a href="https://www.ffothello.org/strategie/"><i><p id="dernière">Vous connaissez désormais les règles du jeu, faites vos premières parties et apprenez la stratégie pour gagner !       
+     </p></i></a>
+</div>
+
+      <div id="footer">
+     <a href="#imageHaut" id="hautpage">Retourner en haut de page</a>
+    </div>   
+
+      <script src="scripts.js"></script>
+   </body>
+</html>

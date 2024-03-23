@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>Projet - Othello</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.plot.ly/plotly-2.30.0.min.js" charset="utf-8"></script>
+</head>
+<body>
+
+  <div id="imageHaut">
+    <img src="image1.jpg" id="imageHaut-image">
+    <div id="imageHaut-texte">
+       <h1>Que la bataille commence !</h1>
+       <a href="#form" id="go">>---- Je suis prêt(e) ! ----<</a>
+       <p><a href="home.html" id="site"><button id="boutonHome">Comment naviguer ?</button></a></p>
+      </div>
+ </div>
+</div>
+<div id="form">
+<div id="titres">
+<h3>Taille de l'océan :</h3>
+<hr id="hr">
+<h3>Mode de jeu :</h3>
+<hr id="hr">
+<h3>Qui es-tu matelot ?</h3>
+</div>
+
+<form id="choixJeu">
+    <br>
+    <select id="tailleG">
+        <option value="4">4*4</option>
+        <option value="6">6x6</option>
+        <option value="8" selected>8x8</option>
+    </select>
+    <hr id="hr">
+
+    <br>
+    <br>
+
+    <br>
+
+    <input name="modeJeu" type="radio" id="2joueurs" value="1" checked>Bas-toi contre ton ami moussaillon !
+    <input name="modeJeu" type="radio" id="1joueur" value="2">Bas-toi contre un matelot lointain !
+    <input name="modeJeu" type="radio" id="1joueurD" value="3">Bas-toi contre un matelot lointain expérimenté !
+    <hr id="hr">
+
+    <div id="roleChoix">
+      <p>
+        <input type="radio" name="role" value="marin" id="roleMarin" checked>Marin
+      </p>
+      <p>
+        <input type="radio" name="role" value="pirate" id="rolePirate">Pirate
+      </p>
+      </div>
+    <br>
+    <br>
+
+</form>
+<p>
+  <button id="boutonJeu" type="button">Partir en mer...</button>
+</p>
+</div>
+
+<div id="jeu">
+    <div id="plateau"></div>
+</div>
+
+
+<div id="score">
+
+    <div id="totalBlanc">Pirates : 2</div>
+    <hr id="hrScore">
+    <div id="totalNoir">Marins:  2</div>
+
+</div>
+
+<p id="messageFin"></p>
+<button id="rejouer" style="display: none;">Rejouer</button>
+<button id="retourAccueil" style="display: none;">Arrêter</button>
+
+<div id="camembert"></div>
+<div id="courbes"></div>
+
+
+<script src="main.js"></script>
+</body>
+<div id="footer">
+  <a href="#imageHaut" id="hautpage">Retourner en haut de page</a>
+ </div>   
+</html>
