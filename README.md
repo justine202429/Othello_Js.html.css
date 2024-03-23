@@ -3,6 +3,7 @@ La particularité du jeu Othello est que chaque pion est blanc d’un côté et 
 
 Les règles officielles sont disponibles sur le site de la Fédéra)on Française d’Othello :
 [h;ps://www.ffothello.org/othello/regles-du-jeu/](https://www.ffothello.org/othello/regles-du-jeu/)
+
 Le site suivant vous permet de tester le jeu en ligne : 
 [h;ps://www.toupty.com/jeu-en-ligne-othello-reversi.html](https://www.toupty.com/jeu-en-ligne-othello-reversi.html#gsc.tab=0)https://www.toupty.com/jeu-en-ligne-othello-reversi.html#gsc.tab=0
 
@@ -13,5 +14,6 @@ The peculiarity of the game Othello is that each pawn is white on one side and b
 
 The official rules are available on the website of the Fédération Française d'Othello:
 [h;ps://www.ffothello.org/othello/game-rules/](https://www.ffothello.org/othello/game-rules/)
+
 The following site allows you to test the game online: 
 [h;ps://www.toupty.com/jeu-en-ligne-othello-reversi.html](https://www.toupty.com/jeu-en-ligne-othello-reversi.html#gsc.tab=0)https://www.toupty.com/jeu-en-ligne-othello-reversi.html#gsc.tab=0
